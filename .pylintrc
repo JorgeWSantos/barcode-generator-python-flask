@@ -1,6 +1,17 @@
 ﻿[MAIN]
-disable = C0116, #missing-function-docstring
-          C0114, #missing-module-docstring
+
+; C0116, #missing-function-docstring
+; C0115, #missing-class-docstring
+; C0114, #missing-module-docstring
+; tC0303, #trailing-whitespace
+; tR0903, #too-few-public-methods
+; tW0012m, #unknown-option-value
+
+disable = C0116, C0115, C0114, C0303, R0903, W0012m 
+
+# pylint: unknown-option-value
+# pylint: too-few-public-methods
+# pylint: trailing-whitespace
 
 # Analyse import fallback blocks. This can be used to support both Python 2 and
 # 3 compatible code, which means that the block might have code that exists
