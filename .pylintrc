@@ -3,11 +3,18 @@
 ; C0116, #missing-function-docstring
 ; C0115, #missing-class-docstring
 ; C0114, #missing-module-docstring
-; tC0303, #trailing-whitespace
-; tR0903, #too-few-public-methods
-; tW0012m, #unknown-option-value
+; C0303, #trailing-whitespace
+; R0903, #too-few-public-methods
+; W0012m, #unknown-option-value
+; W0718, #broad-exception-caught
 
-disable = C0116, C0115, C0114, C0303, R0903, W0012m 
+disable = C0116, #missing-function-docstring
+            C0115, #missing-class-docstring
+            C0114, #missing-module-docstring
+            C0303, #trailing-whitespace
+            R0903, #too-few-public-methods
+            W0012, #unknown-option-value
+            W0718, #broad-exception-caught
 
 # pylint: unknown-option-value
 # pylint: too-few-public-methods
