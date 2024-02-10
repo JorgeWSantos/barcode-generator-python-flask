@@ -15,6 +15,7 @@ disable = C0116, #missing-function-docstring
             R0903, #too-few-public-methods
             W0012, #unknown-option-value
             W0718, #broad-exception-caught
+            W0719, #broad-exception-raised
 
 # pylint: unknown-option-value
 # pylint: too-few-public-methods
